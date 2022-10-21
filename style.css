@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cabecera{
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    background-color: black;
+}
+
+.logo{
+    top: 10px;
+    left: 50px;
+    width: 100px;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+
+.menu-lista{
+    display: flex;
+}
+
+.menu-items{
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+.menu-link{
+    color: white;
+    margin-right: 1.25em;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    font-weight: bolder;
+    color: lightblue;
+    text-decoration: underline;
+    font-size: 16.3px;
+}
+
+.banner-titulo {
+    width: 100%;
+    color: rgb(44, 132, 204);
+    font-family: 'Poppins', sans-serif;
+    font-style:italic;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    text-shadow: 4px 4px 4px rgb(219, 219, 219);
+}
+
+.quienes-somos{
+    padding-top: 2rem;
+    text-align: center;
+    color: black;
+    padding: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.descripcion{
+    text-align: center;
+    color: #595959;
+    font-size: 22px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.fotos, .fotos2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.foto-estudio{
+    width: 420px;
+    height: 420px;
+    border: 1px black solid;
+}
+
+.foto-estudio:hover{
+    transform: scale(1.02);
+}
+
+.contenido-mapa{
+    background:linear-gradient(#FEFEFE, lightgray);
+    margin-bottom: 40px;
+}
+
+.personas, .servicios{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.persona__nombre, .servicio__nombre{
+    margin: 1rem 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: rgb(54, 114, 134);
+    font-weight: bold;
+}
+
+.persona__funcion, .servicio__funcion{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.persona__imagen, .servicio__imagen{
+    height: 350px;
+    width: 350px;
+}
+
+.persona__imagen--Santino{
+    background-image: url("https://res.cloudinary.com/postedin/image/upload/d_fucsia:no-image.jpg,f_auto,q_80/fucsia/c-postedin-image-42445.jpeg");
+}
+
+.persona__imagen--Martina{
+    background-image: url("https://www.notaalpie.com.ar/wp-content/uploads/2021/04/WhatsApp-Image-2021-04-17-at-20.23.53.jpeg");
+}
+
+.persona__imagen--Victoria{
+    background-image: url("https://imagenes.elpais.com/resizer/6zpje8PQ5sGMj4kx-45mAMrkU2c=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/I4PZI3PSQBEX7JBAKXFS35BJZE.jpg");
+}
+
+.servicio__imagen--Tatuaje{
+    background-image: url(https://filesedc.com/uploads/363/img/2022/07/1200/persona-tatuando-en-blanco-y-negro-62d8ff2fbe3bb.jpg);
+}
+
+.servicio__imagen--Piercing{
+    background-image: url(https://cdn.shopify.com/s/files/1/0248/1166/7565/articles/Constellation3_PVL2022_EarscapeEcomm_720x.jpg?v=1642722793);
+}
+
+.servicio__imagen--Diseño{
+    background-image: url(https://assets2.domestika.org/course-images/000/001/312/1312-big.jpg);
+}
+
+.persona__imagen, .servicio__imagen{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+}
+
+.servicio__imagen{
+    border-radius: 30%;
+}
+
+.persona__imagen:hover{
+    opacity: 0.5;
+    transition: 400ms;
+    transform: scale(1.05);
+}
+
+.servicio__imagen:hover{
+    opacity: 0.5;
+    transition: 400ms;
+    transform: scale(1.05);
+}
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(background-footer.svg);
+    background-size: cover;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.box__footer .logo img{
+    width: 250px;
+    height: 250px;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #000000;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+
+
+/*------------------------------PÁGINA TURNOS-------------------------------*/
+
+form {
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.texto-formulario{
+    color: rgb(54, 114, 134);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.formulario, .formulario-mensaje{
+    width: 900px;
+    height: 40px;
+    margin-bottom: 15px;
+    background-color: rgb(243, 245, 247);
+    border: 1px black solid;
+}
+
+.formulario:hover, .formulario-mensaje:hover {
+    transform: scale(1.005);
+    border-color: rgb(48, 67, 151);
+}
+
+.formulario::placeholder, .formulario-mensaje::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.formulario-mensaje{
+    height: 140px;
+}
+
+
+button {
+    width: 900px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    background-color:aliceblue;
+    border-radius: 12px;
+    color: rgba(16, 190, 88, 0.897);
+    cursor: pointer
+}
+
+button:hover {
+    transform: scale(1.05);
+    border-color: rgba(16, 190, 88, 0.9);
+}
+
+/*-----------------DISEÑOS DISPONIBLES-----------------------*/
+
+
+#galeria, .galeria2, .galeria3, .galeria4 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/*-----------PREG FEQ----------------------------*/
+
+.consulta{
+    border: 1px solid black;
+    padding-left: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(39, 60, 74);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.consulta:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    border-color: blue;
+}
+
+.respuesta{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+{
+    "arreglo": [
+        {  "nombre":"Dragón Rojo",
+            "imagen":"https://i.pinimg.com/564x/6c/1f/82/6c1f82642353bdd299b478d83b6d35e9.jpg"
+        },
+        {   "nombre":"Ángel Demonio",
+            "imagen":"https://i.pinimg.com/564x/1f/73/d3/1f73d38e96b55f1a860f1316a573c03b.jpg"
+        },
+        {   "nombre":"Cuchillo Anime",
+            "imagen":"https://i.pinimg.com/564x/f8/f4/60/f8f460a9aab2cb46610ca294d9bfefb2.jpg"
+        },
+        {   "nombre":"Sirenita",
+            "imagen":"https://i.pinimg.com/564x/03/0e/12/030e1278c69bcf0001bd68e0ca9074a0.jpg"
+        },
+        {   "nombre":"Pulpo Rojo",
+            "imagen":"https://i.pinimg.com/564x/69/ee/a6/69eea6fcb8f7b994cc91ea2bf68b593b.jpg"
+        },
+        {   "nombre":"Ojo de la Tentación",
+            "imagen":"https://i.pinimg.com/564x/0a/48/81/0a4881bf57805da7b5cf8311ebd3bf04.jpg"
+        },
+        {   "nombre":"Mariposa",
+            "imagen":"https://i.pinimg.com/564x/5f/29/16/5f2916362507b31d415fadc92e2a61d4.jpg"
+        },
+        {   "nombre":"Tarot",
+            "imagen":"https://i.pinimg.com/564x/e8/1b/7d/e81b7d76814b611db830be61f0665762.jpg"
+        }, 
+        {   "nombre":"Corazón",
+            "imagen":"https://i.pinimg.com/564x/a8/9e/e9/a89ee949acb13c55f9d3cbeb95ec0c81.jpg"
+        }, 
+        {   "nombre":"Muchacha Tradicional",
+            "imagen":"https://i.pinimg.com/564x/92/d6/6d/92d66de93807262ffcae522e667fe223.jpg"
+        }, 
+        {   "nombre":"León con Serpientes",
+            "imagen":"https://i.pinimg.com/564x/b0/ed/b5/b0edb597b2712a89bda9b4e3ae996910.jpg"
+        }, 
+        {   "nombre":"Manga Floreada",
+            "imagen":"https://i.pinimg.com/564x/a7/f8/e6/a7f8e60040010dac6706f2a7576cbbf3.jpg"
+        }
+                ]
+}

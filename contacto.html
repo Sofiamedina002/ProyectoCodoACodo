@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9b5975e7b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="cabecera" id="micabecera">
+        <a href="index.html"><img class="logo" src="SOLOMUN.png"></a>
+        <nav class="menu">
+            <ul class="menu-lista">
+                <li class="menu-items"><a class="menu-link" href="index.html" target="_blank">Inicio</a></li>
+                <li class="menu-items"><a class="menu-link" href="contacto.html" target="_blank">Turnos</a></li>
+                <li class="menu-items"><a class="menu-link" href="diseños.html" target="_blank">Diseños Disponibles</a></li>
+                <li class="menu-items"><a class="menu-link" href="cuidados.html" target="_blank">Preguntas Frecuentes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="banner-titulo">Turnos</h2>
+        <p class="descripcion">Por favor rellena este formulario si quieres sacar un turno o te gustaría escribirnos un mensaje:</p>
+        <form action="" method="POST" id="formulario">
+            
+            <p>
+                <span class="texto-formulario">Nombre Completo</span>
+                <br>
+                <label for="nombre"></label>
+                <input class="formulario" type="text" id="nombre" name="nombre" placeholder="Ingrese aquí su nombre y apellido">
+            </p>
+
+            <p>
+                <span class="texto-formulario">Email</span>
+                <br>
+                <label for="usuario"></label>
+                <input class="formulario" type="email" id="usuario" name="usuario" placeholder="example@email.com">
+            </p>
+
+            <p>
+                <span class="texto-formulario">Asunto</span>
+                <br>
+                <label for="asunto"></label>
+                <input class="formulario" type="text" id="asunto" name="asunto" placeholder="Asunto">    
+            </p>
+        
+            <p>
+                <span class="texto-formulario">Mensaje</span>
+                <br>
+                <label for="msg"></label>
+                <textarea class="formulario-mensaje" id="msg" name="user_message" placeholder="Ingrese aquí un mensaje extra"></textarea>
+            </p>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+
+    <footer>
+
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <a href="index.html"><img src="SOLOMUN_blanco.png" alt="logo"></a>
+                </div>
+
+            </div>
+
+            <div class="box__footer">
+                <h2>Nuestra web</h2>
+                <a href="contacto.html">Turnos</a>
+                <a href="diseños.html">Diseños Disponibles</a>
+                <a href="cuidados.html">Preguntas frecuentes</a>     
+            </div>
+
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="www.facebook.com"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="www.twitter.com"><i class="fab fa-twitter-square"></i> Twitter</a>
+                <a href="www.linkedin.com"><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="www.instagram.com"><i class="fab fa-instagram-square"></i> Instagram</a>
+            </div>
+
+        </div>
+
+        <div class="box__copyright">
+            <hr>
+            <p>Hecho por Méndez Mariano y Sofía Medina - Programa Codo a Codo © 2022</p>
+        </div>
+    </footer>
+
+<script src="headerfijo.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
